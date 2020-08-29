@@ -1,0 +1,168 @@
+@media only screen and (max-width: 1170px) {
+    .container {
+        width: 96%;
+    }
+
+    .our-work .col {
+        width: 33.33%;
+    }
+
+    .footer-section .contact-us ul li.send {
+        margin-bottom: 185px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .our-services ul li {
+        padding: 60px 30px;
+    }
+
+    .footer-section .about-us, .footer-section .contact-us {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-section .about-us, .footer-section .contact-us {
+        padding: 60px;
+    }
+
+    .footer-section .contact-us {
+        margin-top: 50px;
+    }
+
+    .footer-section .contact-us ul li.send {
+        margin-bottom: 0;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .header-section .logo-section,
+    .header-section .navigation-section {
+        float: none;
+        text-align: center;
+    }
+
+    .header-section .logo-section a img {
+        margin: 0 auto;
+    }
+
+    .header-section .navigation-section {
+        margin-top: 50px;
+    }
+
+    .banner-section {
+        padding: 120px 0px;
+    }
+
+    .our-services {
+        padding: 80px 0px;
+    }
+
+    .our-services ul li {
+        width: 45%;
+    }
+
+    .our-services ul li:nth-child(2) {
+        margin-right: 0;
+    }
+
+    .our-services ul li:last-child {
+        margin-top: 50px;
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    .banner-section h1 {
+        font-size: 38pt;
+    }
+
+    .banner-section ul {
+        text-align: center;
+    }
+
+    .banner-section ul li {
+        display: block;
+    }
+
+    .banner-section ul li:first-child {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .banner-section ul li a {
+        margin: 0 auto;
+    }
+
+    .our-history {
+        padding: 80px 0px;
+    }
+
+    .our-work .col {
+        width: 50%;
+    }
+
+    .clients-section {
+        padding: 80px 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header-section .navigation-section ul li {
+        margin-bottom: 20px;
+    }
+    
+    .our-services ul li, .our-services ul li:last-child {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .our-services ul li:first-child {
+        margin-bottom: 50px;
+    }
+
+    .clients-images ul {
+        display: inherit;
+    }
+
+    .clients-images ul li {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .clients-images ul li:nth-child(1),
+    .clients-images ul li:nth-child(2) {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .banner-section h1 {
+        font-size: 28pt;
+    }
+
+    .our-history .history-content p {
+        color: #637988;
+        line-height: 20pt;
+    }
+
+    .our-work .col {
+        width: 100%;
+        height: auto;
+    }
+
+    .bottom-footer .copyright, .bottom-footer .social-section {
+        float: none;
+        text-align: center;
+    }
+
+    .bottom-footer .social-section {
+        margin-top: 50px;
+    }
+
+    .footer-section .about-us, .footer-section .contact-us {
+        padding: 50px 20px;
+    }
+}
